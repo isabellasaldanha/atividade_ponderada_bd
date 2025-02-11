@@ -31,7 +31,6 @@ app.use((req, res, next) => {
   next()
 })
 
-// Inicia o servidor
 app.listen(PORT, () => {
   console.log(`Servidor iniciado na porta ${PORT}`)
 })
